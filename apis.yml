@@ -1,4 +1,16 @@
 aid: shop-circle
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shop-circle.png
 name: Shop Circle
 description: 'Shop Circle is a company surfaced as a portfolio company of qed-investors and added to the
   API Evangelist network as a stub for enrichment. Sector: ecommerce. This profile is a lead awaiting
