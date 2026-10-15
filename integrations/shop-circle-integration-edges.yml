@@ -1,5 +1,5 @@
 generated: '2026-10-12'
-method: none
+method: searched
 source:
 - https://zapier.com/apps/shop-circle/integrations
 - https://n8n.io/integrations/shop-circle/
@@ -10,7 +10,34 @@ checked:
 - https://monid.ai/tools/shop-circle
 - https://n8n.io/integrations/shop-circle/
 - https://zapier.com/apps/shop-circle/integrations
+- shopify/integrations/shopify-integration-edges.yml
 summary: null
 marketplace_apps: []
-edges: []
+edges:
+- partner_name: Shopify (own)
+  partner: shopify
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://apps.shopify.com/easyredirects
+  mirror_of: shopify/integrations/shopify-integration-edges.yml
+  apps:
+  - 404/301 SC Easy URL Redirects
+  - SC Product Options
+  - SC Store Locator Map
+  - out-of-stock-1
+  - ordertagger
+  - customer-tagger
+  - loyalty-points-by-bold
+  - referral-program
+  - the-motivator
+  listing_count: 9
+  detected: '2026-10-15'
+  detected_by: mirror-platform-listings.py
+  publisher_verified:
+  - Built for Shopify
 templates: []
